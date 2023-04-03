@@ -417,7 +417,6 @@ mt7915_init_wiphy(struct mt7915_phy *phy)
 				vht_cap->cap |=
 					IEEE80211_VHT_CAP_SHORT_GI_160 |
 					FIELD_PREP(IEEE80211_VHT_CAP_EXT_NSS_BW_MASK, 1);
-			
 		} else {
 			vht_cap->cap |=
 				IEEE80211_VHT_CAP_MAX_MPDU_LENGTH_11454 |
